@@ -49,7 +49,7 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: news
+    id: posts
     content:
       title: Recent Blog Posts
       page_type: blog
@@ -78,9 +78,9 @@ sections:
 #     design:
 #       view: card
 #   - block: collection
-#     id: news
+#     id: posts
 #     content:
-#       title: Recent News
+#       title: Recent Posts
 #       subtitle: ''
 #       text: ''
 #       # Page type to display. E.g. post, talk, publication...
