@@ -1,116 +1,94 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Agustin Arias, MSc"
+  given: "Agustin"
+  family: "Arias"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
 postnominals:
-  - PhD
-  - MIEEE
+  - "MSc"
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+role: "AI Architect & Applied Mathematician"
+bio: "Agustin is an AI Architect and Applied Mathematician from the University of Buenos Aires (UBA). He specializes in software architecture and machine learning, focusing on the development of intelligent documentation agents and robust AI systems.\n"
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "University of Buenos Aires (UBA)"
+    url: "https://www.uba.ar/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "at-symbol"
+    url: "mailto:agustinntarias@gmail.com"
+    label: "E-mail Me"
+  - icon: "brands/github"
+    url: "https://github.com/agustin-arias"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/agustinntarias"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Multi-Agent Systems"
+  - "Applied Mathematics"
+  - "Topological Data Analysis"
+  - "Software Architecture"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+  - degree: "Master in Applied Mathematics"
+    institution: "University of Buenos Aires (UBA)"
+    start: "2024-03-01"
+    end: "2026-06-01" 
+    summary: "Pursued advanced studies in mathematical modeling and AI applications."
+  - degree: "BS in Applied Mathematics"
+    institution: "University of Buenos Aires (UBA)"
+    start: "2020-03-01"
+    end: "2023-06-01"
+    summary: "Completed undergraduate studies in applied mathematics with a focus on mathematical modeling and AI applications."
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+  - role: "Senior Devex Architect & AI Lead"
+    org: "LA NACION"
+    start: "2025-10-01"
+    summary: "Leading architectural transition of a 2GB monolithic codebase using TDA and Multi-Agent Systems."
+  - role: "Senior AI Engineer"
+    org: "Remitz Inc."
+    start: "2024-10-01"
+    end: "2025-10-01"
+    summary: "Orchestrated HIPAA-compliant AI pipelines for medical billing automation."
+  - role: "Machine Learning Engineer"
+    org: "Revelen.ai"
+    start: "2023-07-01"
+    end: "2024-10-01"
+    summary: "Led Computer Vision initiatives using YOLOv8 and Detectron2."
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Python
+      - label: "Python & .NET (Roslyn API)"
         level: 5
-      - label: Machine Learning
+      - label: "Multi-Agent Systems (LangGraph/PydanticAI)"
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: "Applied Mathematics (TDA/Graph Theory)"
+        level: 5
+  - name: "Specialized Engineering"
     items:
-      - label: Academic Writing
+      - label: "RAG Architectures"
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
+      - label: "Software Architecture"
+        level: 5
 languages:
-  - name: English
+  - name: "Spanish"
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
+    label: "Native"
+  - name: "English"
+    level: 5
+    label: "C2 Proficient (EF SET 85/100)"
+  - name: "German"
+    level: 1
+    label: "Elementary"
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: "1st Place & Gold Medal"
+    awarder: "National Physics Olympiad (OAF)"
+    date: "2015-10-01"
+    summary: "Recognized as the top physics student in Argentina."
+    icon: "hero/trophy"
+  - title: "Honor Mention in Mathematics"
+    awarder: "Intercollegiate Competition (CIMA)"
+    date: "2018-01-01"
+    summary: "Awarded for exceptional performance in mathematical problem solving."
+    icon: "hero/academic-cap"
