@@ -4,3 +4,5 @@ github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba
 github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
 github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a h1:pAmM7/M2gichwWvDNlf3ItReJxkmewP6mEXv1ymJVBU=
 github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=
+github.com/kaisugi/HugoTeX v0.0.0-20260103153345-4c27722acd8e h1:Zyl00NrgzrobxYXQ0zuwzgAFsHYCnQtl92+wa1+eXWY=
+github.com/kaisugi/HugoTeX v0.0.0-20260103153345-4c27722acd8e/go.mod h1:twAIv7WWKDM4E8I90GJIQdQTLQv6T8IdwO5mV1VU4wI=

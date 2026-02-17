@@ -9,7 +9,7 @@ hugoblox:
     mode: system
     pack: dracula
     colors:
-      primary: ""
+      primary: "#00ffcc"
       secondary: ""
       neutral: ""
   typography:
@@ -17,8 +17,10 @@ hugoblox:
     size: md
   layout:
     radius: md
-    spacing: comfortable
+    spacing: wide
     avatar_shape: circle
+    container_width: "1600px"
+    max_width: "1600px"
   header:
     enable: true
     style: navbar
