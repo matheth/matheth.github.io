@@ -53,6 +53,22 @@ article {
   z-index: 1;
 }
 
+/* ----- Article/Blog page: wider content on desktop ----- */
+/* Theme uses max-w-screen-xl (1280px) and main max-w-6xl (1152px). Match site container_width (1600px) on wide screens. */
+@media (min-width: 1280px) {
+  .page-body .mx-auto.flex.max-w-screen-xl {
+    max-width: 1800px !important;
+  }
+  .page-body main.max-w-6xl {
+    max-width: 90rem !important; /* 1440px – wider than 6xl, still readable */
+  }
+}
+@media (min-width: 1536px) {
+  .page-body main.max-w-6xl {
+    max-width: 100rem !important; /* 1600px on very wide screens */
+  }
+}
+
 /* ----- Services: High-End Productized Grid (Tech-Noir) ----- */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
