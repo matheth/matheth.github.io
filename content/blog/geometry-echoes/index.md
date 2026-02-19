@@ -19,7 +19,7 @@ cover:
     opacity: 0.4
 ---
 
-In my career as an **Applied Mathematician (UBA)** and **AI Architect**, I have learned that classic physics problems often hide geometric elegances that "brute force" methods tend to overlook. Today, we analyze problem **1.1.18*** from the renowned I.E. Savchenko, a kinematics challenge that demands precise handling of wave propagation and vector geometry.
+Through countless hours spent solving physics exercises, I have learned that classic physics problems often hide geometric elegances that brute force straight-calculation methods tend to overlook. Today, we analyze problem **1.1.18*** from the renowned O. Ya Savchenko _Problems in Physics_, a kinematics challenge that demands precise handling of wave propagation and vector geometry.
 
 ## The Problem
 
@@ -35,6 +35,9 @@ To solve this, we must identify the precise moment the sound wavefront, after re
 
 
 Imagine a "virtual source" of sound located behind the wall. The distance the sound travels to the wall and back to the car is equivalent to the straight-line distance from this virtual source to the point where the car receives the echo.
+![](./image_method.png)
+
+In the above image the soundwave is seen phasing through the wall, which doesn't change the distance travel due to the symmetry of the reflection.
 
 ### 1. Setting up the Coordinate System
 
@@ -43,7 +46,6 @@ Let the point where the beep is emitted be $P_0$. At this moment, the distance t
 * The sound travels a total distance $ct$ at speed $c$.
 * Since the time $t$ is the same for both: $t = s/v$, meaning the sound travels a distance $D = \frac{c}{v}s$.
 
-![](./image_method.png)
 
 ### 2. Applying the Law of Cosines
 
@@ -52,8 +54,7 @@ Let $P_1$ be the position of the car when it hears the echo. We can construct a 
 2.  The initial position $P_0$.
 3.  The final position $P_1$.
 
-The distance between $P_0$ and its image $P_0'$ is $2l$ (perpendicular to the wall). The angle between the car's path and the perpendicular to the wall is $(\pi/2 - \alpha)$. Therefore, the angle $\theta$ between the segment $P_0 P_0'$ and the car's path $P_0 P_1$ is:
-$$\theta = \pi - (\pi/2 - \alpha) = \pi/2 + \alpha$$
+The distance between $P_0$ and its image $P_0'$ is $2l$ (perpendicular to the wall). The angle $\angle P_1 P_0^{\prime} P_0$, i.e. the angle located at point $P_0^{\prime}$ is clearly $\theta = \pi - \left( \frac{\pi}{2} - \alpha \right) = \pi/2 + \alpha$.
 
 Using the Law of Cosines in the triangle $\triangle P_0' P_0 P_1$:
 

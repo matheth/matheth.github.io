@@ -51,7 +51,7 @@ $$J(a) = \int_{0}^{\frac{\pi}{2}} \ln\left(\frac{1 + \sin x \sin \psi}{\sin \psi
 So, therefore
 $$J(a) = I(\psi) - \frac{\pi}{2} \ln(\sin \psi)$$
 
-Thus, solving $I(\psi)$ gives us the complete solution to $J(a)$ for any $a \ge 1$, and in particular, ay $a\in \mathbb{N}$.
+Thus, solving $I(\psi)$ gives us the complete solution to $J(a)$ for any $a \ge 1$, and in particular, any $a\in \mathbb{N}$.
 
 ## The Approach
 
