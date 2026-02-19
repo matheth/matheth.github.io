@@ -60,3 +60,12 @@
 
 
 ## USE SLIDES OR PUBLICATIONS AND SOMETING ELSE IN HUGO TO IMPROVE MY WEBSITE
+
+
+
+
+# fix footer across all pages to look like inside of 
+http://localhost:1313/blog/stow-guide/
+http://localhost:1313/experience/
+
+
