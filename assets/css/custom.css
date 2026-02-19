@@ -453,3 +453,84 @@ a.btn-ghost:hover {
   margin: 0;
   color: #a3a3a3;
 }
+
+
+
+.powered-by.text-sm.opacity-80 {
+  display: none !important;
+}
+
+
+.footer-license-icons {
+  display: none !important;
+}
+
+
+
+
+
+
+/* ========================================= */
+/* BLOG POST FOOTER ALIGNMENT FIX            */
+/* ========================================= */
+
+/* 1. Force the 'Tags' (Applied Math, Calculus, etc.) to align Left */
+.prose .flex.justify-center {
+  justify-content: flex-start !important;
+}
+
+
+/* 3. Reduce the large vertical gap above the Author Bio */
+/* The default theme adds 'pt-12' (approx 3rem), this cuts it in half */
+.prose .flex.pt-12 {
+  padding-top: 1.5rem !important;
+}
+
+
+
+/* ========================================= */
+/* FIX: Force Blog Footer to Full Width      */
+/* ========================================= */
+
+/* 1. Target the div with "max-w-prose print:hidden" explicitly */
+/* We must escape the colon in 'print:hidden' with a backslash */
+.prose .max-w-prose.print\:hidden {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important; /* Optional: remove padding if you want it flush */
+}
+
+/* 2. Ensure the internal Author Bio card also expands */
+.prose .max-w-prose.print\:hidden .flex.pt-12 {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+/* Hide 'Powered by Hugo Blox' in the Search Modal */
+a[href*="hugoblox.com"] {
+  display: none !important;
+}
+
+/* ========================================= */
+/* FOOTER POSITIONING FIX                    */
+/* ========================================= */
+
+/* Reduce the 6rem gap above the footer to something more professional */
+.page-footer footer {
+  margin-top: 1.5rem !important; /* Overrides mt-24 */
+  padding-top: 0 !important;
+}
+
+/* Ensure the main page content doesn't push the footer further than needed */
+.page-body {
+  padding-bottom: 1rem !important;
+}
+
+/* Center and dim the copyright for a subtle "status bar" look */
+.page-footer .powered-by.text-center {
+  margin-bottom: 1rem !important;
+  opacity: 0.6;
+}

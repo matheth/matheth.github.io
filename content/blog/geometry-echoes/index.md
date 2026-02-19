@@ -7,7 +7,9 @@ authors:
 tags:
   - Physics
   - Kinematics
-  - Applied Mathematics
+  - Geometry
+  - Savchenko
+  - Problem Solving
 # Enable LaTeX rendering
 math: true
 cover:

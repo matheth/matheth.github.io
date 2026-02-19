@@ -5,9 +5,11 @@ date: 2026-02-17
 authors:
   - me
 tags:
-  - Software Engineering
+  - Dotfiles
   - Linux
-  - Workflow Optimization
+  - Git
+  - Shell
+  - Terminal
 # Enable LaTeX rendering
 math: false
 cover:

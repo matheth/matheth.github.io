@@ -53,3 +53,10 @@
 
 * [ ] **Sync with AlphaSignal/Latent Space:** Submit your "TDA for Reasoning" post to high-density newsletters to attract CTOs.
 * [ ] **LinkedIn Refactor:** Headline: "AI Architect | Applied Math (UBA) | Building Verifiable Reasoning Loops that Scale ROI."
+
+
+
+
+
+
+## USE SLIDES OR PUBLICATIONS AND SOMETING ELSE IN HUGO TO IMPROVE MY WEBSITE

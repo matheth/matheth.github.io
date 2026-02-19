@@ -5,6 +5,7 @@
   "packageManager": "pnpm@10.14.0",
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
+    "clean": "rm -rf public resources .hugo_build.lock",
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify && pnpm run pagefind",
     "pagefind": "pagefind --site public"

@@ -1,0 +1,2 @@
+{{ $js := resources.Get "js/search-math.js" | js.Build }}
+<script src="{{ $js.RelPermalink }}" defer></script>

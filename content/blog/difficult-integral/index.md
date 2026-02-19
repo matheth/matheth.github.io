@@ -5,9 +5,11 @@ date: 2026-02-15
 authors:
   - me
 tags:
-  - Applied Mathematics
   - Calculus
-  - Physics
+  - Integration
+  - Feynman Technique
+  - Leibniz Rule
+  - Inverse Tangent Integral
 # Enable LaTeX rendering
 math: true
 cover:
