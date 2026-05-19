@@ -18,9 +18,9 @@ affiliations:
   - name: "University of Buenos Aires (UBA)"
     url: "https://www.uba.ar/"
 links:
-  - icon: "at-symbol"
-    url: "mailto:agustinntarias@gmail.com"
-    label: "E-mail Me"
+  # - icon: "at-symbol"
+  #   url: "mailto:agustinntarias@gmail.com"
+  #   label: "E-mail Me"
   - icon: "brands/github"
     url: "https://github.com/agustin-arias"
   - icon: "brands/linkedin"
